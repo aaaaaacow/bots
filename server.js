@@ -3,7 +3,7 @@ const WebSocket = require('ws');
 const { HttpsProxyAgent } = require('https-proxy-agent');
 
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 // Your proxies (same as before)
 const proxies = `85.209.195.92:32349
